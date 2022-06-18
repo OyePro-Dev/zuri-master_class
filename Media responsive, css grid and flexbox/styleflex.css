@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+} 
+
+main {
+    width: 50%;
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sedan {
+    width: 50%;
+    min-width: 50%;
+    background-color: hsl(31, 77%, 52%);
+    padding: 30px;
+    border-radius: 10px 0 0 10px;
+}
+
+.suv {
+    width: 50%;
+    min-width: 50%;
+    background-color: hsl(184, 100%, 22%);
+    padding: 30px;
+}
+
+.luxury {
+    width: 50%;
+    min-width: 50%;
+    background-color: hsl(179, 100%, 13%);
+    padding: 30px;
+    border-radius: 0 10px 10px 0;
+} 
+
+div img {
+    width: 50px;
+}
+
+div h2 {
+     color: hsl(0, 0%, 95%);
+     font-family: Big Shoulders Display;
+     font-weight: 700;
+     padding-top: 20px;
+} 
+
+div p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family: Lexend Deca;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+div button {
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-family: Lexend Deca;
+    text-align: centre;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.button1 {
+    color: hsl(31, 77%, 52%);
+}
+
+.button2 {
+    color: hsl(184, 100%, 22%);
+}
+
+.button3 {
+    color: hsl(179, 100%, 13%);
+}
+
+.button1:hover {
+     cursor: pointer;
+     background-color: hsl(31, 77%, 52%);
+     border: 2px solid hsl(0, 0%, 95%);
+     color: hsl(0, 0%, 95%);
+}
+
+.button2:hover {
+    cursor: pointer;
+    background-color: hsl(184, 100%, 22%);
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+
+.button3:hover {
+    cursor: pointer;
+    background-color: hsl(179, 100%, 13%);
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
