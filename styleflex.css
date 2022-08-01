@@ -24,6 +24,7 @@ main {
     background-color: hsl(31, 77%, 52%);
     padding: 30px;
     border-radius: 10px 0 0 10px;
+    height: 75vh;
 }
 
 .suv {
@@ -31,6 +32,7 @@ main {
     min-width: 50%;
     background-color: hsl(184, 100%, 22%);
     padding: 30px;
+    height: 75vh;
 }
 
 .luxury {
@@ -39,6 +41,7 @@ main {
     background-color: hsl(179, 100%, 13%);
     padding: 30px;
     border-radius: 0 10px 10px 0;
+    height: 75vh;
 } 
 
 div img {
@@ -104,4 +107,58 @@ div button {
     background-color: hsl(179, 100%, 13%);
     border: 2px solid hsl(0, 0%, 95%);
     color: hsl(0, 0%, 95%);
+}
+
+header {
+     width: 10%;
+     background-color: rgb(48, 170, 170);
+     float: center;
+     text-align: center;
+     margin: 5% auto 0;
+     padding: 5px;
+     border-radius: 10px;    
+}
+
+nav a {
+    color: rgb(225, 228, 228);
+    text-decoration: none;
+}
+
+@media screen and (max-width: 758px) {
+main {
+    flex-direction: column;
+    width: 90%;
+    min-height: 150vh;
+    padding-top: 20px;
+} 
+
+.suv, .sedan, .luxury {
+     padding: 10px 20px;
+}
+
+.sedan {
+      border-radius: 5px 5px 0px 0px;
+}
+
+.luxury {
+      border-radius: 0px 0px 5px 5px;
+      margin-bottom: 30px;    
+}
+
+div p {
+    padding-bottom: 30px;
+    font-size: 12px;
+}
+
+div button {
+    margin-bottom: 10px;
+}
+
+}
+
+@media screen and (max-width: 375px) {
+header {
+    float: left;
+}
+    
 }
