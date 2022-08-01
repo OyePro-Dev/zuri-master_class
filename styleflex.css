@@ -24,7 +24,6 @@ main {
     background-color: hsl(31, 77%, 52%);
     padding: 30px;
     border-radius: 10px 0 0 10px;
-    height: 75vh;
 }
 
 .suv {
@@ -32,7 +31,6 @@ main {
     min-width: 50%;
     background-color: hsl(184, 100%, 22%);
     padding: 30px;
-    height: 75vh;
 }
 
 .luxury {
@@ -41,7 +39,6 @@ main {
     background-color: hsl(179, 100%, 13%);
     padding: 30px;
     border-radius: 0 10px 10px 0;
-    height: 75vh;
 } 
 
 div img {
